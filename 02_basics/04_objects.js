@@ -11,7 +11,7 @@ const regularUser = {
     email: "some@gmail.com",
     fullname: {
         userfullname: {
-            firstname: "hitesh",
+            firstname: "aarsh",
             lastname: "choudhary"
         }
     }
@@ -27,7 +27,7 @@ const obj4 = {5: "a", 6: "b"}
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 
 const obj3 = {...obj1, ...obj2}
-// console.log(obj3);
+//console.log(obj3);
 
 
 const users = [
@@ -58,7 +58,7 @@ users[1].email
 const course = {
     coursename: "js in hindi",
     price: "999",
-    courseInstructor: "hitesh"
+    courseInstructor: "aarsh"
 }
 
 // course.courseInstructor
@@ -69,7 +69,7 @@ const {courseInstructor: instructor} = course
 console.log(instructor);
 
 // {
-//     "name": "hitesh",
+//     "name": "aarsh",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
